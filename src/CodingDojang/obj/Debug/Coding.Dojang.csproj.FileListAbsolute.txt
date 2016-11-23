@@ -1,0 +1,3 @@
+B:\專門\Coding.Dojang\CodingDojang\bin\Debug\CodingDojang.exe.config
+B:\專門\Coding.Dojang\CodingDojang\obj\Debug\CodingDojang.exe
+B:\專門\Coding.Dojang\CodingDojang\obj\Debug\CodingDojang.pdb

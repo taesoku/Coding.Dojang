@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3ACD9A6C-96A1-4B77-B3FB-B0974A9DF696}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodingDojang</RootNamespace>
+    <AssemblyName>CodingDojang</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Question.003.Get.LCD.cs" />
+    <Compile Include="Question.002.Get.Spiral.Array.cs" />
+    <Compile Include="Question.001.Sum.Of.Self.Numbers.cs" />
+    <Compile Include="Question.012.Format.Comma.cs" />
+    <Compile Include="Question.011.Primary.Arithmetic.cs" />
+    <Compile Include="Question.010.Four.Boxes.cs" />
+    <Compile Include="Question.009.Get.Tug.Of.War.cs" />
+    <Compile Include="Question.008.Count.Interval.Days.cs" />
+    <Compile Include="Question.007.Count.Eights.cs" />
+    <Compile Include="Question.019.Print.To.Spaces.cs" />
+    <Compile Include="Question.018.Find.File.Directories.cs" />
+    <Compile Include="Question.020.Count.Pages.cs" />
+    <Compile Include="Question.022.Min.Distance.cs" />
+    <Compile Include="Question.024.Print.Duplicate.Removal.cs" />
+    <Compile Include="Question.023.Max.Cycle.cs" />
+    <Compile Include="Question.025.Pots.Of.Gold.Game.cs" />
+    <Compile Include="Question.004.Is.Slurpy.cs" />
+    <Compile Include="Question.006.Count.Eight.Queens.cs" />
+    <Compile Include="Question.014.List.Turn.cs" />
+    <Compile Include="Question.021.Print.Converted.Unit.cs" />
+    <Compile Include="Question.028.Get.Special.Sort.cs" />
+    <Compile Include="Question.029.Intervene.cs" />
+    <Compile Include="Question.033.Find.Spy.cs" />
+    <Compile Include="Question.036.Print.Poker.Hands.cs" />
+    <Compile Include="Question.039.Maximum.Distance.cs" />
+    <Compile Include="Question.038.Random.Walk.cs" />
+    <Compile Include="Question.037.Is.Jolly.Jumper.cs" />
+    <Compile Include="Question.035.Find.Elected.cs" />
+    <Compile Include="Question.034.Finding.Mines.cs" />
+    <Compile Include="Question.026.Smallest.Range.cs" />
+    <Compile Include="Question.041.Print.Converted.Eventh.Digit.cs" />
+    <Compile Include="Question.042.Is.Light.More.Light.cs" />
+    <Compile Include="Question.051.Count.Steps.cs" />
+    <Compile Include="Question.053.Get.Interval.cs" />
+    <Compile Include="Question.054.Telephone.cs" />
+    <Compile Include="Question.056.Insertion.Sort.cs" />
+    <Compile Include="Question.055.The.Knights.Of.The.Round.Table.cs" />
+    <Compile Include="Question.060.Find.Josephus.cs" />
+    <Compile Include="Question.059.Find.Largest.Subset.cs" />
+    <Compile Include="Question.058.Is.One.Edit.Apart.cs" />
+    <Compile Include="Question.052.Get.Sliding.Window.cs" />
+    <Compile Include="Question.050.Find.Euclid.cs" />
+    <Compile Include="Question.049.Find.Ugly.Number.cs" />
+    <Compile Include="Question.048.An.Easy.Problem.cs" />
+    <Compile Include="Question.047.Check.The.Check.cs" />
+    <Compile Include="Question.045.Reverse.And.Add.cs" />
+    <Compile Include="Question.044.Ones.cs" />
+    <Compile Include="Coding.Dojang.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question.062.Two.Printers.cs" />
+    <Compile Include="Question.061.Get.Bubble.Sort.cs" />
+    <Compile Include="Question.065.Sum.Of.ASCII.Codes.cs" />
+    <Compile Include="Question.066.Count.Refrigerators.cs" />
+    <Compile Include="Question.067.Validate.Parentheses.cs" />
+    <Compile Include="Question.071.Count.Consequence.Arithmetic.cs" />
+    <Compile Include="Question.070.Find.Fibonacci.Remainder.cs" />
+    <Compile Include="Question.069.Print.Fibonacci.cs" />
+    <Compile Include="Question.073.Print.Compression.cs" />
+    <Compile Include="Question.072.Tic.Tac.Toe.cs" />
+    <Compile Include="Question.077.Count.Cell.Simulation.cs" />
+    <Compile Include="Question.083.Find.Net.Profit.cs" />
+    <Compile Include="Question.082.Count.Numeric.Baseball.cs" />
+    <Compile Include="Question.081.Validate.Lawnmower.cs" />
+    <Compile Include="Question.080.Digital.Watch.cs" />
+    <Compile Include="Question.095.Professor.Indexes.cs" />
+    <Compile Include="Question.097.Compare.Versions.cs" />
+    <Compile Include="Question.098.Find.Happy.Number.cs" />
+    <Compile Include="Question.113.Count.Stair.Steps.cs" />
+    <Compile Include="Question.099.Get.Shortest.Path.cs" />
+    <Compile Include="Question.096.Print.OXs.cs" />
+    <Compile Include="Question.093.Duplicate.Numbers.cs" />
+    <Compile Include="Question.089.Painter.cs" />
+    <Compile Include="Question.068.Decimal.Converter.cs" />
+    <Compile Include="Question.005.Sum.Of.Multiples.3.And.5.cs" />
+    <Compile Include="Question.017.Generate.Quine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
