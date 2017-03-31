@@ -16,7 +16,7 @@ namespace Coding.Dojang
         {
             var sum = 0;
             for (int i = 3; i < n; i++)
-                sum += i%3 == 0 || i%5 == 0 ? i : 0;
+                sum += i % 3 == 0 || i % 5 == 0 ? i : 0;
             return sum;
         }
 

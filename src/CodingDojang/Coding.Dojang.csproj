@@ -78,7 +78,7 @@
     <Compile Include="Question.053.Get.Interval.cs" />
     <Compile Include="Question.054.Telephone.cs" />
     <Compile Include="Question.056.Insertion.Sort.cs" />
-    <Compile Include="Question.055.The.Knights.Of.The.Round.Table.cs" />
+    <Compile Include="Question.055.Max.Round.Table.cs" />
     <Compile Include="Question.060.Find.Josephus.cs" />
     <Compile Include="Question.059.Find.Largest.Subset.cs" />
     <Compile Include="Question.058.Is.One.Edit.Apart.cs" />
@@ -109,6 +109,7 @@
     <Compile Include="Question.095.Professor.Indexes.cs" />
     <Compile Include="Question.097.Compare.Versions.cs" />
     <Compile Include="Question.098.Find.Happy.Number.cs" />
+    <Compile Include="Question.116.Find.Look.And.Say.Sequence.cs" />
     <Compile Include="Question.113.Count.Stair.Steps.cs" />
     <Compile Include="Question.099.Get.Shortest.Path.cs" />
     <Compile Include="Question.096.Print.OXs.cs" />

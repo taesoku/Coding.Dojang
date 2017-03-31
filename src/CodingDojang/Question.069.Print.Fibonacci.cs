@@ -9,7 +9,7 @@ namespace Coding.Dojang
         // time taken: 00:26:31:21
         public static void Answer()
         {
-            var output = PrintFibonacci(100000);
+            var output = PrintFibonacci(10);
         }
 
         public static string PrintFibonacci(int n)

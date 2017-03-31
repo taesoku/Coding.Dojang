@@ -21,10 +21,10 @@ namespace Coding.Dojang
 
             var inputs = new string[n];
 
-            inputs[0] = "AHDFG";
-            inputs[1] = "ADFGCDFFFFFG";
-            inputs[2] = "ABAEFGCCDFEFFFFFG";
-            inputs[3] = "DFGAH";
+            inputs[0] = "AHDFG"; // yes
+            inputs[1] = "ADFGCDFFFFFG"; // yes
+            inputs[2] = "ABAEFGCCDFEFFFFFG"; // no
+            inputs[3] = "DFGAH"; // no
 
             //for (int i = 0; i < n; i++)
             //{
@@ -39,11 +39,7 @@ namespace Coding.Dojang
             //}
 
             Console.WriteLine("SLURPYS OUTPUT");
-
-            for (int i = 0; i < n; i++)
-                if (IsSlurpy(inputs[i])) Console.WriteLine("Yes");
-                else Console.WriteLine("No");
-
+            for (int i = 0; i < n; i++) Console.WriteLine(IsSlurpy(inputs[i]) ? "Yes" : "No");
             Console.WriteLine("END OF OUTPUT");
 
         }
@@ -52,7 +48,7 @@ namespace Coding.Dojang
         {
             var isSlump = false;
             if (input.Length <= 2) return false;
-            if ((input[0] == 'D' || input[0] == 'E') && input[1] == 'F')
+            if ((input[0] == 'D' || input[1] == 'E') && input[1] == 'F')
                 for (int i = 2; i < input.Length; i++)
                 {
                     if (input[i] == 'F') continue;
@@ -63,7 +59,6 @@ namespace Coding.Dojang
                         isSlump = true;
                         break;
                     }
-                    else break;
                 }
             return isSlump;
         }

@@ -64,7 +64,7 @@ namespace Coding.Dojang
                 if (temp == value)
                 {
                     count++;
-                    if (count%2 == 0)
+                    if (count % 2 == 0)
                     {
                         shiftX--;
                         if (shiftY == 0) break;
@@ -77,9 +77,9 @@ namespace Coding.Dojang
                         temp += shiftX;
                     }
                 }
-                if (count%4 == 0) j++;
-                else if (count%4 == 1) i++;
-                else if (count%4 == 2) j--;
+                if (count % 4 == 0) j++;
+                else if (count % 4 == 1) i++;
+                else if (count % 4 == 2) j--;
                 else i--;
             }
             return outputs;

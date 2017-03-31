@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System;
+using System.Runtime.InteropServices;
 
 namespace Coding.Dojang
 {
@@ -9,12 +10,18 @@ namespace Coding.Dojang
         {
             var output1 = GetLCD(2, "12345");
             var output2 = GetLCD(3, "67890");
+
+            for (int i = 0; i < output1.Length; i++)
+                Console.Write(output1[i]);
+            Console.WriteLine("");
+            for (int i = 0; i < output2.Length; i++)
+                Console.Write(output2[i]);
         }
 
         public static string[] GetLCD(int n, string input)
         {
-            var row = n*2 + 3;
             var outputs = new string[input.Length];
+            var row = n * 2 + 3;
             for (int i = 0; i < input.Length; i++)
             {
                 var curr = input[i].ToString();

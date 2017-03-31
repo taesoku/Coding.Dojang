@@ -8,7 +8,7 @@ namespace Coding.Dojang.Dojang
 
         
         // count: return int - counting
-        // find: return int
+        // find: return object
         // get: return array || list
         // is: return bool
         // max: return int - finding maximum
@@ -21,10 +21,10 @@ namespace Coding.Dojang.Dojang
 
             var stopwatch = Stopwatch.StartNew();
             //Question001SumOfSelfNumbers.Answer();
-            //Question002GetSpiralArray.Answer();
+            //Question002GetSpiralArray.Answer();z
             //Question003GetLCD.Answer();
             //Question004IsSlurpy.Answer();
-            //Question005SumOfMultiples3And5.Answer();
+            Question005SumOfMultiples3And5.Answer();
             //Question006CountEightQueens.Answer();
             //Question007CountEights.Answer();
             //Question008CountIntervalDays.Answer();
@@ -51,7 +51,7 @@ namespace Coding.Dojang.Dojang
             //Question036PrintPokerHands.Answer();
             //Question037IsJollyJumper.Answer();
             //Question038RandomWalk.Answer();
-            Question039MaxDistance.Answer();
+            //Question039MaxDistance.Answer();
             //Question041PrintConvertedEventhDigit.Answer();
             //Question042IsLightMoreLight.Answer();
             //Question044Ones.Answer3(3);
@@ -71,7 +71,7 @@ namespace Coding.Dojang.Dojang
             //Question058IsOneEditApart.Answer();
             //Question059FindLargestSubset.Answer();
             //Question060FindJosephus.Answer();
-            Question061BubbleSort.Answer();
+            //Question061BubbleSort.Answer();
             //Question062TwoPrinters.Answer();
             //Question065SumOfASCIICode.Answer();
             //Question066IceCreamFactory.Answer();
@@ -93,7 +93,7 @@ namespace Coding.Dojang.Dojang
             //Question097CompareVersions.Answer();
             //Question098FindHappyNumbers.Answer();
             //Question113CountStairSteps.Answer();
-
+            Question116FindLookAndSaySequence.Answer();
 
             Console.WriteLine(stopwatch.ElapsedMilliseconds + " milliseconds taken for this operation.");
             Console.Read();
