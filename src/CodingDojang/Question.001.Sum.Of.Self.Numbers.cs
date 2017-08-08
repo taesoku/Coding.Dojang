@@ -19,8 +19,7 @@ namespace Coding.Dojang
                 var d = i / 1000 + i % 1000 / 100 + i % 100 / 10 + i % 10 + i;
                 outputs[d] = i;
             }
-            for (int i = 1; i <= n; i++)
-                sum += outputs.ContainsKey(i) ? 0 : i;
+            for (int i = 1; i <= n; i++) sum += outputs.ContainsKey(i) ? 0 : i;
             return sum;
         }
 

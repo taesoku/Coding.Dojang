@@ -6,7 +6,6 @@ namespace Coding.Dojang.Dojang
     class CodingDojang
     {
 
-        
         // count: return int - counting
         // find: return object
         // get: return array || list
@@ -20,11 +19,11 @@ namespace Coding.Dojang.Dojang
         {
 
             var stopwatch = Stopwatch.StartNew();
-            //Question001SumOfSelfNumbers.Answer();
+            Question001SumOfSelfNumbers.Answer();
             //Question002GetSpiralArray.Answer();z
             //Question003GetLCD.Answer();
             //Question004IsSlurpy.Answer();
-            Question005SumOfMultiples3And5.Answer();
+            //Question005SumOfMultiples3And5.Answer();
             //Question006CountEightQueens.Answer();
             //Question007CountEights.Answer();
             //Question008CountIntervalDays.Answer();
