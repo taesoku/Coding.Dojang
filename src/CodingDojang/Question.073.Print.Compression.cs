@@ -15,20 +15,18 @@ namespace Coding.Dojang
             var count = 1;
             var last = input[0].ToString();
             var output = new StringBuilder();
-            for (int i = 1; i < input.Length; i++)
+            for (var i = 1; i < input.Length; i++)
             {
                 if (input[i].ToString() != last)
                 {
-                    output.Append(last);
-                    output.Append(count);
+                    output.Append(last + count);
                     last = input[i].ToString();
                     count = 1;
                     continue;
                 }
                 count++;
             }
-            output.Append(last);
-            output.Append(count);
+            output.Append(last + count);
             return output.ToString();
         }
 
