@@ -16,16 +16,17 @@ namespace Coding.Dojang
 
         public static string PrintOXs(int n)
         {
-            var curr = new StringBuilder();
+            var curr = 0;
             var output = new StringBuilder();
-            for (int i = 1; i <= n; i++)
+            for (var i = n - 1; i >= 0; i++)
             {
-                curr.Append("X");
-                output.Append(string.Empty.PadLeft(n - i));
-                output.Append(curr);
+                var temp = Math.Pow(2, i);
+                curr += (int)temp;
+                var binary = Convert.ToString(curr, 2);
+                output.Append(binary.Replace("1", "X").Replace("0", "O"));
                 output.Append("\n");
             }
-            return output.ToString().Replace(" ", "0");
+            return output.ToString();
         }
 
     }

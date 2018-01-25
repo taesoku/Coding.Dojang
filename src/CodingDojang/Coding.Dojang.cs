@@ -19,7 +19,7 @@ namespace Coding.Dojang.Dojang
         {
 
             var stopwatch = Stopwatch.StartNew();
-            Question001SumOfSelfNumbers.Answer();
+            //Question001SumOfSelfNumbers.Answer();
             //Question002GetSpiralArray.Answer();z
             //Question003GetLCD.Answer();
             //Question004IsSlurpy.Answer();
@@ -92,7 +92,7 @@ namespace Coding.Dojang.Dojang
             //Question097CompareVersions.Answer();
             //Question098FindHappyNumbers.Answer();
             //Question113CountStairSteps.Answer();
-            Question116FindLookAndSaySequence.Answer();
+            //Question116FindLookAndSaySequence.Answer();
 
             Console.WriteLine(stopwatch.ElapsedMilliseconds + " milliseconds taken for this operation.");
             Console.Read();
