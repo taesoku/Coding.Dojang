@@ -4,17 +4,17 @@
     {
         public static void Answer()
         {
-            var output1 = ValidateParentheses("(()()()())");
-            var output2 = ValidateParentheses("(((())))");
-            var output3 = ValidateParentheses("(()((())()))");
-            var output4 = ValidateParentheses("((((((())");
-            var output5 = ValidateParentheses("()))");
-            var output6 = ValidateParentheses("(()()(()");
-            var output7 = ValidateParentheses("(()))(");
-            var output8 = ValidateParentheses("())(()");
+            var output1 = IsValidParentheses("(()()()())");
+            var output2 = IsValidParentheses("(((())))");
+            var output3 = IsValidParentheses("(()((())()))");
+            var output4 = IsValidParentheses("((((((())");
+            var output5 = IsValidParentheses("()))");
+            var output6 = IsValidParentheses("(()()(()");
+            var output7 = IsValidParentheses("(()))(");
+            var output8 = IsValidParentheses("())(()");
         }
 
-        public static bool ValidateParentheses(string input)
+        public static bool IsValidParentheses(string input)
         {
             var count = 0;
             foreach (var t in input)
