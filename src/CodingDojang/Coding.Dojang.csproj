@@ -95,7 +95,7 @@
     <Compile Include="Question.061.Get.Bubble.Sort.cs" />
     <Compile Include="Question.065.Sum.Of.ASCII.Codes.cs" />
     <Compile Include="Question.066.Count.Refrigerators.cs" />
-    <Compile Include="Question.067.Validate.Parentheses.cs" />
+    <Compile Include="Question.067.Is.Valid.Parentheses.cs" />
     <Compile Include="Question.071.Count.Consequence.Arithmetic.cs" />
     <Compile Include="Question.070.Find.Fibonacci.Remainder.cs" />
     <Compile Include="Question.069.Print.Fibonacci.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace Coding.Dojang
 {
-    public static class Question067ValidateParentheses
+    public static class Question067IsValidParentheses
     {
         public static void Answer()
         {
@@ -17,15 +17,14 @@
         public static bool ValidateParentheses(string input)
         {
             var count = 0;
-            for (int i = 0; i < input.Length; i++ )
+            foreach (var t in input)
             {
-                var curr = input[i].ToString();
+                var curr = t.ToString();
                 if (curr == "(") count++;
                 else if (curr == ")") count--;
                 if (count < 0) return false;
             }
             return count == 0;
         }
-
     }
 }
