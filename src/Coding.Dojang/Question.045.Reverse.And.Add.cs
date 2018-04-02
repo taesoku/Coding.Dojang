@@ -30,7 +30,7 @@ namespace Coding.Dojang
         public static void Answer()
         {
 
-            int number = int.Parse(Console.ReadLine().ToString());
+            var number = int.Parse(Console.ReadLine());
 
             if (number > 100)
             {
@@ -38,15 +38,15 @@ namespace Coding.Dojang
                 return;
             }
 
-            string temp = Console.ReadLine().ToString();
+            var temp = Console.ReadLine();
 
-            List<Palindrome> inputs = new List<Palindrome>(number);
+            var inputs = new List<Palindrome>(number);
 
             while (temp.Length > 0)
             {
-                Palindrome input = new Palindrome(temp);
+                var input = new Palindrome(temp);
                 inputs.Add(input);
-                temp = Console.ReadLine().ToString();
+                temp = Console.ReadLine();
             }
 
             if (inputs.Count != number)
@@ -59,12 +59,9 @@ namespace Coding.Dojang
             foreach (var input in inputs)
             {
                 ReverseAndAdd(input);
-
                 if (input.Answer.Length > 10)
                     Console.WriteLine(input.Answer);
-                else
-                    Console.WriteLine(input.Count + " " + input.Answer);
-
+                else Console.WriteLine(input.Count + " " + input.Answer);
             }
 
         }
@@ -72,11 +69,10 @@ namespace Coding.Dojang
         public static void ReverseAndAdd(Palindrome input)
         {
 
-            string reverse = Reverse(input.Answer);
+            var reverse = Reverse(input.Answer);
 
             // check if palindrome is found
-            if (input.Answer == reverse) 
-                return;
+            if (input.Answer == reverse) return;
 
             // check if the number of times excuted
             if (input.Count >= 1000)
@@ -85,7 +81,7 @@ namespace Coding.Dojang
                 return;
             }
 
-            ulong add = Add(input.Answer, reverse);
+            var add = Add(input.Answer, reverse);
 
             // index out of range
             if (add > 4294967295)

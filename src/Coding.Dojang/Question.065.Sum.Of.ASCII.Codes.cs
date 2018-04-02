@@ -11,7 +11,7 @@ namespace Coding.Dojang
 
         public static void Answer()
         {
-            var file = File.ReadAllText("B:\\專門\\Coding.Dojang\\CodingDojang\\Question.065.XOR.Decryption.txt").Split(',').ToList();
+            var file = File.ReadAllText("B:\\專門\\Coding.Dojang\\Coding.Dojang\\Question.065.XOR.Decryption.txt").Split(',').ToList();
             var sum = SumOfASCIICodes(file, 0, (FindXORDecryption(file, 0)));
             sum += SumOfASCIICodes(file, 1, (FindXORDecryption(file, 1)));
             sum += SumOfASCIICodes(file, 2, (FindXORDecryption(file, 2)));

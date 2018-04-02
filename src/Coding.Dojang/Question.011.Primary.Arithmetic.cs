@@ -15,16 +15,16 @@ namespace Coding.Dojang
             var inputs = new List<string>();
             while (dummy == 0)
             {
-                var input = Console.ReadLine().ToString();
+                var input = Console.ReadLine();
                 if (input.Count(i => i.ToString().Contains("0")) == 2)
                     break;
                 inputs.Add(input);
             }
             
-            for (int i = 0; i < inputs.Count; i++)
+            foreach (var input in inputs)
             {
-                var input = inputs[i].Split(' ').ToList();
-                PrimaryArithmetic(input[0], input[1]);
+                var curr = input.Split(' ').ToList();
+                PrimaryArithmetic(curr[0], curr[1]);
             }
                 
         }
@@ -41,7 +41,7 @@ namespace Coding.Dojang
                 large = large.Substring(sub);
             }
 
-            for(int i = 0; i < small.Length; i++)
+            for(var i = 0; i < small.Length; i++)
                 if (int.Parse(small[i].ToString()) + int.Parse(large[i].ToString()) > 9)
                     sum++;
 

@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding.Dojang", "CodingDojang\Coding.Dojang.csproj", "{3ACD9A6C-96A1-4B77-B3FB-B0974A9DF696}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FE5913D4-0DFA-4166-BB62-C443D4745A97}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding.Dojang", "Coding.Dojang\Coding.Dojang.csproj", "{3ACD9A6C-96A1-4B77-B3FB-B0974A9DF696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
